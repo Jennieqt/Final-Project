@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*
+body
+{
+    background-image: url(./angelogwapo.jpeg);
+    background-size: cover;
+}
+
+h1
+{
+    font-family: 'Press Start 2p', cursive;
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container
+{
+        width: 320px;
+        margin: auto;
+        border-radius: 5px;
+        background-color: black;
+}
+
+.header
+{
+    text-align: center;
+    padding-top: 75px;
+}
+
+.header h1
+{
+    color: darkgray;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.main
+{
+    text-align: center;
+}
+
+.main input,button
+{
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.main button
+{
+    padding-left: 0;
+    background-color: blue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.main button:hover, input:hover
+{
+    box-shadow: 2px 2px 5px #555;
+}
+
+.main span
+{
+    position: relative;
+}
+
+.main i
+{
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 16px;
+    top: 2px ;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+pre
+{
+    color: white;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification</title>
+    <link rel="icon" type="image/x-icon" href="./angelogwapo.jpeg">"
+    <script>
+       const firstname = localStorage.getItem('firstname');
+       console.log(firstname);
+       const lastname = localStorage.getItem('lastname');
+       console.log(lastname);
+       const number = localStorage.getItem('number');
+       console.log(number);
+       const email = localStorage.getItem('email');
+       console.log(email);
+       const birthday = localStorage.getItem('birthday');
+       console.log(birthday);
+       const gender = localStorage.getItem('gender');
+       console.log(gender);
+       const password = localStorage.getItem('password');
+       console.log(password);
+       document.write(firstname);
+       document.write("<br>");
+       document.write(lastname);
+       document.write("<br>");
+       document.write(number);
+       document.write("<br>");
+       document.write(email);
+       document.write("<br>");
+       document.write(birthday);
+       document.write("<br>");
+       document.write(gender);
+       document.write("<br>");
+       document.write(password);
+       localStorage.clear();
+    </script>
+    <style>
+        body{
+            background-image: url(./white.png);
+            background-size: cover;
+        }
+        a
+        {
+        color: darkblue;
+        text-decoration: none;
+        font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <button type="button"><a style="text-decoration: none;" href="./submit.html">Confirm</a></button>
+</body>
+</html>

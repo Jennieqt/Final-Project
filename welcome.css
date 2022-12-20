@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body
+{
+background-image: url(./Blood.jpeg);
+background-size: cover;
+}
+center
+{
+    font-family: 'Press Start 2p', cursive;
+    color: azure;
+    font-size: 10px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}   
+#div1{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+#div2{
+    float: left;
+    position: relative;
+    left: 150px;
+}
+#div3{
+    float: right;
+    position: relative;
+    right: 110px;
+}
+#div4
+{
+    font-style: italic;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: 210px;
+    top: 310px;
+}
+#div5
+{
+    font-style: italic;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    left: 290px;
+    top: 250px;
+}
+#div6
+{
+    font-style: italic;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    left: 620px;
+    top: 185px;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Press Start 2p', cursive;
+    color: azure;
+    font-size: 20px;
+}
+pre
+{
+    color: white;
+}

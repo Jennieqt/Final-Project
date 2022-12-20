@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*
+body
+{
+    background-image: url(./archon-arrival.png);
+    background-size: cover;
+}
+
+.signup-box
+{   
+    width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+h1
+{
+    font-family: 'Press Start 2p', cursive;
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+form
+{
+    width: 270px;
+    margin-left: 20px;
+}
+
+form label
+{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input
+{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1 px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+button
+{
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}

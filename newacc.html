@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="./signup.css">
+    <link rel="icon" type="image/x-icon" href="./angelogwapo.jpeg">"
+    <script>
+        function check() {
+            //get element by id
+            var firstname = document.getElementById('firstname').value;
+            console.log(firstname);
+            var lastname = document.getElementById('lastname').value;
+            var number = document.getElementById('number').value;
+            var email = document.getElementById('email').value;
+            var birthday = document.getElementById('birthday').value;
+            var gender = document.getElementById('gender').value;
+            var password = document.getElementById('password').value;
+            localStorage.setItem('firstname',firstname);
+            localStorage.setItem('lastname',lastname);
+            localStorage.setItem('number',number);
+            localStorage.setItem('email',email);
+            localStorage.setItem('birthday',birthday);
+            localStorage.setItem('gender',gender);
+            localStorage.setItem('password',password);
+            window.location.href="./newPage.html"; //enter a new window
+        }
+    </script>
+</head>
+<body>
+    <h1>Please Sign Up to continue!</h1>
+    <br>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <form>
+            <label>First Name</label>
+            <input type="text" id="firstname" placeholder="">
+            <label>Last Name</label>
+            <input type="text" id="lastname" placeholder="">
+            <label>Number</label>
+            <input type="text" id="number" placeholder="">
+            <label>Email</label>
+            <input type="email" id="email" placeholder="">
+            <label>Birthday</label>
+            <input type="text" id="birthday" placeholder="">
+            <label>Enter Gender</label>
+            <input type="text" id="gender" placeholder="">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="">
+            <label>Confirm Password</label>
+            <input type="password" id="password" placeholder="">
+            <button type="button" value="Submit" onclick="check()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
